@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Museum</title>
+	<meta name="description" content="An experimental slideshow using clip-path to create shape transitions between slides.">
+	<meta name="keywords" content="slideshow, clip-path, shape, gsap, javascript, web design">
+	<meta name="author" content="Cristian">
+	<link rel="shortcut icon" href="/favicon.a39e9ea8.ico">
+	<link rel="stylesheet" type="text/css" href="/src/pages/home.0f72f59b.css">
+	<link rel="preload" as="image" href="/loading.fd4c3aea.svg">
+	<link rel="preload" as="image" href="/loading-circle.49e893cf.svg">
+</head>
+
+
+<body class="active" id="top">
+	<div class="loading" data-loading="">
+		<img src="/loading.9d21ef79.webp" width="60" height="60" alt="loading" class="img">
+		<img src="/loading-circle.49e893cf.svg" width="70" height="70" alt="" class="circle">
+	</div>
+	<header class="header" data-header="">
+		<div class="container">
+			<a href="http://localhost:1234" class="logo">
+				<img src="/logo.f81ba44c.webp" width="40" height="40" alt="Cristian home" style="margin-top: 8px;
+">
+			</a>
+			<button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+				<img src="/menu.61eb8e99.svg" width="17" height="17" alt="menu icon">
+			</button>
+			<nav class="navbar" data-navbar="">
+				<div class="navbar-top">
+					<a href="http://localhost:1234" class="logo">
+						<img src="/nav-logo.7ea12cbc.webp" width="220" height="140" alt="Cristian home" class="img" style="margin-top: 10px;
+">
+					</a>
+					<button class="nav-close-btn" aria-label="close menu" data-nav-toggler="">
+						<span class="span one"></span>
+						<span class="span two"></span>
+					</button>
+				</div>
+				<ul class="navbar-list">
+					<li class="navbar-item">
+						<a href="/src/pages/home.html" class="navbar-link" data-nav-link="">Home</a>
+					</li>
+
+					<li class="navbar-item">
+						<a href="/src/pages/gallery.html" class="navbar-link" data-nav-link="">Gallery</a>
+					</li>
+
+					<li class="navbar-item">
+						<a href="/src/pages/about.html" class="navbar-link" data-nav-link="">About</a>
+					</li>
+
+					<li class="navbar-item">
+						<a href="/src/pages/services.html" class="navbar-link" data-nav-link="">Services</a>
+					</li>
+
+					<li class="navbar-item">
+						<a href="/src/pages/portfolio.html" class="navbar-link" data-nav-link="">Portfolio</a>
+					</li>
+
+					<li class="navbar-item">
+						<a href="#contact" class="navbar-link" data-nav-link="">Contact us</a>
+					</li>
+				</ul>
+				<button class="login-btn">
+					<img src="/user.90a9102c.svg" width="21" height="21" alt="user icon">
+
+					<span class="span">Login</span>
+				</button>
+				<p class="navbar-title">My Address</p>
+
+				<address class="navbar-text">
+					1800 Rio de Janeiro street, Rio de Janeiro, Brazil
+				</address>
+
+				<p class="navbar-text">
+					Urgent issue? call us at
+					<a href="tel:8085613846" class="contact-link">2155-2235-8990</a>
+				</p>
+			</nav>
+			<div class="overlay" data-nav-toggler="" data-overlay=""></div>
+		</div>
+	</header>
+
+	<main>
+		<article>
+			<section class="section hero" id="home" aria-label="home">
+				<div class="container">
+					<img src="/hero-banner.e567629d.png" width="322" height="322" alt="" class="hero-banner">
+					<div class="hero-content">
+						<h1 class="h1 hero-title">Museum</h1>
+						<div class="wrapper h2">
+							<strong class="strong" data-letter-effect="">Architectural</strong>
+							<strong class="strong" data-letter-effect="">Abstract</strong>
+							<strong class="strong" data-letter-effect="">Expressive</strong>
+							<strong class="strong" data-letter-effect="">Historically Old</strong>
+						</div>
+						<p class="hero-text">150 Years of Architecture and Art</p>
+					</div>
+				</div>
+				<img src="/hero-shape.67c4f2db.svg" width="211" height="189" alt="" class="shape">
+			</section>
+
+			<section class="section gallery" id="gallery">
+				<div class="container">
+					<ul class="gallery-list">
+						<li class="gallery-item" data-reveal="">
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-1.e6c1a778.webp" width="450" height="625" loading="lazy" alt="The Savior" class="img-cover">
+
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">The Savior</a>
+									</h3>
+									<span class="card-tag">Burial & Resurrection</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-2.5a3bd32a.webp" width="450" height="625" loading="lazy" alt="Lettuce Entertain" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">Renaissance</a>
+									</h3>
+									<span class="card-tag">Angels</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+						</li>
+						<li class="gallery-item" data-reveal="">
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-3.d0a5dfa0.webp" width="450" height="625" loading="lazy" alt="Leaping Lizard" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">Fauvism</a>
+									</h3>
+									<span class="card-tag">Model, Fashion</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-4.b3d3e200.webp" width="450" height="625" loading="lazy" alt="Juan More Taco" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">Expressive Colors</a>
+									</h3>
+									<span class="card-tag">Vivid & Intense</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+						</li>
+						<li class="gallery-item" data-reveal="">
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-5.cc76c8a7.webp" width="450" height="625" loading="lazy" alt="Goldilox Bagels" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">The Fauves</a>
+									</h3>
+									<span class="card-tag">Powerful Emotional Impact</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-6.c1eb95c9.webp" width="450" height="625" loading="lazy" alt="Cookie Monstah" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">Abstract Expressionism</a>
+									</h3>
+									<span class="card-tag">Squares & Balls</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+						</li>
+						<li class="gallery-item" data-reveal="">
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-7.a6fb4ace.webp" width="450" height="625" loading="lazy" alt="Divine Pastabilities" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">Suffering</a>
+									</h3>
+									<span class="card-tag">Misery & Hunger</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+							<div class="gallery-card">
+								<figure class="card-banner img-holder has-before" style="--width: 450; --height: 625;
+">
+									<img src="/gallery-8.176201e4.webp" width="450" height="625" loading="lazy" alt="The Lockhart Bar" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h6">
+										<a href="#" class="card-title">The Feudalism</a>
+									</h3>
+									<span class="card-tag">Kings & Serfs</span>
+								</div>
+								<a href="#" class="btn-icon">
+									<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+								</a>
+							</div>
+						</li>
+					</ul>
+					<a href="#service" class="scroll-down">
+						<img src="/scroll-down.1ec9478d.svg" width="40" height="66" loading="lazy" alt="mouse scroll">
+					</a>
+					<img src="/gallery-shape.4578794c.svg" width="220" height="78" loading="lazy" alt="" class="shape">
+				</div>
+			</section>
+			<section class="section category" aria-label="photography category">
+				<div class="container">
+					<ul class="category-list">
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Historic,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-1.2a7f0f62.webp" width="600" height="690" loading="lazy" alt="Landscape" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Impressive,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-2.5895067c.webp" width="600" height="690" loading="lazy" alt="Model" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Abstract,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-3.0ff52604.webp" width="600" height="690" loading="lazy" alt="Street" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Cultural,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-4.c84e9e12.webp" width="600" height="690" loading="lazy" alt="Product" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Fashion,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-5.b90e303a.webp" width="600" height="690" loading="lazy" alt="Fashion" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Modern,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-6.31611cf2.webp" width="600" height="690" loading="lazy" alt="Film" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Architectural,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-7.c08ad817.webp" width="600" height="690" loading="lazy" alt="Architecture" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Artistic,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-8.da76f87b.webp" width="600" height="690" loading="lazy" alt="Event" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Expressive,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-9.295944b6.webp" width="600" height="690" loading="lazy" alt="Wedding" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Elegant,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-10.d7b895e8.webp" width="600" height="690" loading="lazy" alt="People" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Unique,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-11.8647a38c.webp" width="600" height="690" loading="lazy" alt="Event" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Perfection,</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-12.3e99335b.webp" width="600" height="690" loading="lazy" alt="Food" class="img-cover">
+								</figure>
+							</a>
+						</li>
+						<li class="category-item" data-reveal="">
+							<a href="#" class="category-card">
+								<h3 class="h4 card-title">Health & Innovative.</h3>
+								<figure class="card-banner img-holder" style="--width: 600; --height: 690;
+">
+									<img src="/category-13.eeaa9c13.webp" width="600" height="690" loading="lazy" alt="Health & Wellnes" class="img-cover">
+								</figure>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="section about" id="about" aria-label="about me">
+				<div class="container">
+					<div class="about-content">
+						<h2 class="h2 section-title" data-reveal="right">
+							Hi. I’m <br>
+							Cristian Mitidieri
+						</h2>
+						<div class="wrapper has-before" data-reveal="right">
+							<p class="section-text">
+								A passionate
+								<em class="em">web Design</em>
+								who are working in this field for
+								<em class="em">last 10 years.</em>
+								I’m ready to give you my best.
+							</p>
+							<img src="/signature.639c1111.webp" width="181" height="102" loading="lazy" alt="signature" class="img" style="margin-top: -40px;
+">
+						</div>
+					</div>
+					<figure class="about-banner" data-reveal="left">
+						<div class="img-holder has-before" style="--width: 512; --height: 684;
+">
+							<img src="/about-banner.0b7ccd55.webp" width="512" height="684" loading="lazy" alt="Riachard Ryan" class="img-cover">
+						</div>
+						<img src="/about-shape-1.cbf25bef.webp" width="178" height="178" loading="lazy" alt="" class="shape shape-1">
+						<img src="/about-shape-2.b2c73d1f.svg" width="659" height="653" loading="lazy" alt="" class="shape shape-2">
+					</figure>
+					<img src="/about-shape-3.d8270741.svg" width="239" height="232" loading="lazy" alt="" class="shape shape-3">
+				</div>
+			</section>
+
+			<section class="section service" id="service" aria-labelledby="service-lable">
+				<p class="section-subtitle container" id="service-lable">My Services</p>
+				<ul class="service-list">
+					<li data-reveal="">
+						<div class="service-card container">
+							<img src="/service-1.dbab66db.webp" width="340" height="380" loading="lazy" alt="Wedding Photography" class="img">
+							<div>
+								<h3 class="h3 card-title">Historically Significant</h3>
+								<p class="card-subtitle">
+									Aut temporibus qui vero.
+								</p>
+							</div>
+							<a href="#" class="btn-icon" aria-label="See more">
+								<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+									<path d="M0 10H41" stroke="white" stroke-width="2"></path>
+									<path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2"></path>
+								</svg>
+							</a>
+						</div>
+					</li>
+					<li data-reveal="">
+						<div class="service-card container">
+							<img src="/service-2.10c99755.webp" width="340" height="380" loading="lazy" alt="Event Organiser" class="img">
+							<div>
+								<h3 class="h3 card-title">Dynamically Expressive</h3>
+								<p class="card-subtitle">
+									Nobis, magni modi ipsa culpa.
+								</p>
+							</div>
+							<a href="#" class="btn-icon" aria-label="See more">
+								<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+									<path d="M0 10H41" stroke="white" stroke-width="2"></path>
+									<path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2"></path>
+								</svg>
+							</a>
+						</div>
+					</li>
+					<li data-reveal="">
+						<div class="service-card container">
+							<img src="/service-3.a5f44640.webp" width="340" height="380" loading="lazy" alt="Product Marketing" class="img">
+							<div>
+								<h3 class="h3 card-title">Technically Proficient</h3>
+								<p class="card-subtitle">
+									Tenetur porro repellendus!
+								</p>
+							</div>
+							<a href="#" class="btn-icon" aria-label="See more">
+								<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+									<path d="M0 10H41" stroke="white" stroke-width="2"></path>
+									<path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2"></path>
+								</svg>
+							</a>
+						</div>
+					</li>
+					<li data-reveal="">
+						<div class="service-card container">
+							<img src="/service-4.5a0d3ac6.webp" width="340" height="380" loading="lazy" alt="Videography" class="img">
+							<div>
+								<h3 class="h3 card-title">Conceptually New</h3>
+
+								<p class="card-subtitle">
+									Amet consectetur adipisicing elit
+								</p>
+							</div>
+							<a href="#" class="btn-icon" aria-label="See more">
+								<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+									<path d="M0 10H41" stroke="white" stroke-width="2"></path>
+									<path d="M33 1L41.9 10.2727L33 19" stroke="white" stroke-width="2"></path>
+								</svg>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+			<section class="section portfolio" id="portfolio" aria-labelledby="portfolio-label">
+				<div class="container">
+					<div class="portfolio-list">
+						<div class="wrapper">
+							<h2 class="h2 section-title" id="portfolio-label" data-reveal="">Wonderful Work.</h2>
+							<div class="portfolio-card" data-reveal="">
+								<figure class="card-banner img-holder has-before" style="--width: 700; --height: 605;
+">
+									<img src="/portfolio-1.21f46f5a.webp" width="700" height="605" loading="lazy" alt="Shoe Promo" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h4">
+										<a href="#" class="card-title">Symbolically Meaningful</a>
+									</h3>
+									<p class="card-tag">Sophisticated</p>
+								</div>
+								<a href="#" class="btn-icon" aria-label="See more">
+									<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+										<path d="M0 10H41" stroke="black" stroke-width="2"></path>
+										<path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2"></path>
+									</svg>
+								</a>
+							</div>
+							<div class="portfolio-card" data-reveal="">
+								<figure class="card-banner img-holder has-before" style="--width: 700; --height: 1091;
+">
+									<img src="/portfolio-2.83ce8282.webp" width="700" height="1091" loading="lazy" alt="Wedding Shot" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h4">
+										<a href="#" class="card-title">Aesthetically Pleasing</a>
+									</h3>
+									<p class="card-tag">Elegant</p>
+								</div>
+								<a href="#" class="btn-icon" aria-label="See more">
+									<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+										<path d="M0 10H41" stroke="black" stroke-width="2"></path>
+										<path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2"></path>
+									</svg>
+								</a>
+							</div>
+						</div>
+						<div class="wrapper">
+							<div class="portfolio-card" data-reveal="">
+								<figure class="card-banner img-holder has-before" style="--width: 700; --height: 1000;
+">
+									<img src="/portfolio-3.cf2185bf.webp" width="700" height="1000" loading="lazy" alt="Fashion Show" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h4">
+										<a href="#" class="card-title">Emotionally Deep</a>
+									</h3>
+									<p class="card-tag">Timeless, Aesthetic</p>
+								</div>
+								<a href="#" class="btn-icon" aria-label="See more">
+									<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+										<path d="M0 10H41" stroke="black" stroke-width="2"></path>
+										<path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2"></path>
+									</svg>
+								</a>
+							</div>
+							<div class="portfolio-card" data-reveal="">
+								<figure class="card-banner img-holder has-before" style="--width: 700; --height: 850;
+">
+									<img src="/portfolio-4.7663b9a4.webp" width="700" height="850" loading="lazy" alt="Jumbo Barger" class="img-cover">
+								</figure>
+								<div class="card-content">
+									<h3 class="h4">
+										<a href="#" class="card-title">Technically Strong</a>
+									</h3>
+									<p class="card-tag">Abstract</p>
+								</div>
+								<a href="#" class="btn-icon" aria-label="See more">
+									<svg xmlns="http://www.w3.org/2000/svg" width="43" height="20" viewbox="0 0 43 20" fill="none">
+										<path d="M0 10H41" stroke="black" stroke-width="2"></path>
+										<path d="M33 1L41.9 10.2727L33 19" stroke="black" stroke-width="2"></path>
+									</svg>
+								</a>
+							</div>
+						</div>
+					</div>
+					<img src="/portfolio-shape.3148c837.svg" width="286" height="232" loading="lazy" alt="" class="shape">
+				</div>
+			</section>
+		</article>
+	</main>
+
+	<footer class="footer">
+
+		<div class="footer-top section" id="contact">
+			<div class="container">
+
+				<p class="section-subtitle" data-reveal="">Contact Us</p>
+
+				<h2 class="h2 section-title" data-reveal="">
+					Work inquiry, Job oportunities? Send Message.
+				</h2>
+
+				<a href="#" class="btn-icon" data-reveal="">
+					<img src="/arrow-forward.e5efbf66.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+				</a>
+
+				<img src="/footer-1.6915c16f.webp" width="159" height="176" loading="lazy" alt="photography" class="abs-img abs-img-1" data-reveal="">
+
+				<img src="/footer-2.e7a1d580.webp" width="265" height="275" loading="lazy" alt="photography" class="abs-img abs-img-2" data-reveal="">
+
+				<img src="/footer-3.9f252c44.webp" width="303" height="272" loading="lazy" alt="photography" class="abs-img abs-img-3" data-reveal="">
+
+				<img src="/footer-4.4f1ca0ca.webp" width="175" height="175" loading="lazy" alt="photography" class="abs-img abs-img-4" data-reveal="">
+
+				<img src="/footer-shape.edc54c68.svg" width="185" height="134" loading="lazy" alt="" class="shape">
+
+			</div>
+		</div>
+
+		<div class="footer-bottom">
+			<div class="container">
+
+				<a href="#" class="logo">
+					<img src="/logo.f81ba44c.webp" width="40" height="40" alt="Cristian home">
+				</a>
+
+				<ul class="social-list">
+
+					<li>
+						<a href="https://github.com/c26art" class="social-link">Git.</a>
+					</li>
+
+					<li>
+						<a href="https://www.instagram.com/cristianmitidiericarvalhal/" class="social-link">Insta.</a>
+					</li>
+
+					<li>
+						<a href="#" class="social-link">Tw.</a>
+					</li>
+
+				</ul>
+
+				<p class="copyright">Made with love</p>
+
+			</div>
+		</div>
+
+		<div class="footer-bg has-before">
+			<img src="/footer-bg.baee0bfa.jpg" width="1920" height="1135" loading="lazy" alt="photography" class="img-cover">
+		</div>
+	</footer>
+
+	<a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn="">0%</a>
+
+	<div class="cursor" data-cursor=""></div>
+
+	<script src="/src/pages/services.dcd2794a.js"></script>
+</body>
+
+</html>
